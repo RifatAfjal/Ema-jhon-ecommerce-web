@@ -1,0 +1,6 @@
+.shop-container {
+    display: flex;
+}
+.product-container {
+    border-right: 1px solid gray;
+}
