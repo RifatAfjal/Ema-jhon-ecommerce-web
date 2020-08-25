@@ -1,0 +1,29 @@
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.order-summary h2,.order-summary h3 {
+    text-align: center;
+    margin-bottom: -5px;
+}
+.order-summary pre {
+    font-size: 17px;
+}
+.order-details {
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    background-color: rgba(0,0,0,0.3);
+}

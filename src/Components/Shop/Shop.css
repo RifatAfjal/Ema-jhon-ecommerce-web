@@ -1,6 +1,9 @@
 .shop-container {
     display: flex;
 }
-.product-container {
+.product-container  {
     border-right: 1px solid gray;
+}
+.cart-container {
+    min-width: 300px;
 }
